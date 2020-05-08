@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca1e0a68-ad6a-4ddb-a0fa-ee234d1d83f0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YQrukoJ9tB7kWHePXzkxqEF2vi" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RunTests">
+    <configuration name="Feature: Dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Dashboard.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors net.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Serenity" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check the initiation and edit option visible" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Dashboard.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors net.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Serenity" />
+      <option name="NAME_FILTER" value="^check the initiation and edit option visible$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^check the initiation and edit option visible$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check the initiation and edit option visible" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check the initiation option visible" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Dashboard.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors net.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Serenity" />
+      <option name="NAME_FILTER" value="^check the initiation option visible$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^check the initiation option visible$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check the initiation option visible" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunTests" />
+        <item itemvalue="Cucumber java.Feature: Dashboard" />
+        <item itemvalue="Cucumber java.Scenario: check the initiation and edit option visible" />
+        <item itemvalue="Cucumber java.Scenario: check the initiation option visible" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca1e0a68-ad6a-4ddb-a0fa-ee234d1d83f0" name="Default Changelist" comment="" />
+      <created>1582885883686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582885883686</updated>
+      <workItem from="1582885888185" duration="130000" />
+      <workItem from="1582886025581" duration="113000" />
+      <workItem from="1582886307129" duration="39000" />
+      <workItem from="1582886359695" duration="107000" />
+      <workItem from="1582886642011" duration="587000" />
+      <workItem from="1582887263001" duration="104000" />
+      <workItem from="1582887525640" duration="844000" />
+      <workItem from="1582888464630" duration="45000" />
+      <workItem from="1582888540600" duration="507000" />
+      <workItem from="1582889080280" duration="44000" />
+      <workItem from="1582889177869" duration="1719000" />
+      <workItem from="1582890963403" duration="1758000" />
+      <workItem from="1582892771700" duration="384000" />
+      <workItem from="1582893273873" duration="1085000" />
+      <workItem from="1582894643460" duration="1844000" />
+      <workItem from="1582896527582" duration="1819000" />
+      <workItem from="1582898412711" duration="1775000" />
+      <workItem from="1583130441385" duration="982000" />
+      <workItem from="1583131512261" duration="816000" />
+      <workItem from="1583132371399" duration="613000" />
+      <workItem from="1583141844858" duration="1758000" />
+      <workItem from="1583143642227" duration="1780000" />
+      <workItem from="1583145678390" duration="2039000" />
+      <workItem from="1583147819935" duration="31000" />
+      <workItem from="1583148027493" duration="1662000" />
+      <workItem from="1583152386069" duration="298000" />
+      <workItem from="1583153163976" duration="970000" />
+      <workItem from="1583154177480" duration="1861000" />
+      <workItem from="1583156328527" duration="2026000" />
+      <workItem from="1583158389533" duration="998000" />
+      <workItem from="1583215676876" duration="1756000" />
+      <workItem from="1583217494500" duration="745000" />
+      <workItem from="1583218342124" duration="924000" />
+      <workItem from="1583219421179" duration="29000" />
+      <workItem from="1583219555773" duration="179000" />
+      <workItem from="1583221086475" duration="122000" />
+      <workItem from="1583221235113" duration="1770000" />
+      <workItem from="1583223050690" duration="1782000" />
+      <workItem from="1583224885361" duration="272000" />
+      <workItem from="1583229022534" duration="1769000" />
+      <workItem from="1583230833128" duration="1778000" />
+      <workItem from="1583232654085" duration="1769000" />
+      <workItem from="1583234475876" duration="1511000" />
+      <workItem from="1583236335652" duration="2093000" />
+      <workItem from="1583240328923" duration="1777000" />
+      <workItem from="1583242938852" duration="1790000" />
+      <workItem from="1583244810497" duration="308000" />
+      <workItem from="1583292811879" duration="1761000" />
+      <workItem from="1583294611534" duration="2094000" />
+      <workItem from="1583296743643" duration="2311000" />
+      <workItem from="1583299333079" duration="2203000" />
+      <workItem from="1583301580456" duration="653000" />
+      <workItem from="1583321447576" duration="1825000" />
+      <workItem from="1583323330156" duration="978000" />
+      <workItem from="1583389020611" duration="626000" />
+      <workItem from="1583413743549" duration="722000" />
+      <workItem from="1583415809803" duration="627000" />
+      <workItem from="1587026359339" duration="13000" />
+      <workItem from="1587026382631" duration="634000" />
+      <workItem from="1588425156904" duration="1225000" />
+      <workItem from="1588426516315" duration="414000" />
+      <workItem from="1588426978273" duration="1759000" />
+      <workItem from="1588428795201" duration="1541000" />
+      <workItem from="1588430698468" duration="250000" />
+      <workItem from="1588431028602" duration="112000" />
+      <workItem from="1588431232228" duration="1220000" />
+      <workItem from="1588432503924" duration="1724000" />
+      <workItem from="1588434303405" duration="299000" />
+      <workItem from="1588434628297" duration="772000" />
+      <workItem from="1588435442201" duration="1311000" />
+      <workItem from="1588436884035" duration="368000" />
+      <workItem from="1588437283941" duration="68000" />
+      <workItem from="1588437594957" duration="180000" />
+      <workItem from="1588440089060" duration="1800000" />
+      <workItem from="1588441946213" duration="1781000" />
+      <workItem from="1588443892517" duration="2205000" />
+      <workItem from="1588446183420" duration="1633000" />
+      <workItem from="1588478509252" duration="1754000" />
+      <workItem from="1588480317604" duration="1783000" />
+      <workItem from="1588482141781" duration="1812000" />
+      <workItem from="1588483997610" duration="1776000" />
+      <workItem from="1588485814423" duration="1771000" />
+      <workItem from="1588487655474" duration="1799000" />
+      <workItem from="1588489494652" duration="1774000" />
+      <workItem from="1588491314920" duration="1772000" />
+      <workItem from="1588493129672" duration="1773000" />
+      <workItem from="1588494942042" duration="1853000" />
+      <workItem from="1588496830724" duration="1796000" />
+      <workItem from="1588498674042" duration="1773000" />
+      <workItem from="1588500485577" duration="1782000" />
+      <workItem from="1588502325545" duration="1821000" />
+      <workItem from="1588504201586" duration="1770000" />
+      <workItem from="1588506017805" duration="1772000" />
+      <workItem from="1588507830341" duration="1769000" />
+      <workItem from="1588509639885" duration="1772000" />
+      <workItem from="1588511450996" duration="1779000" />
+      <workItem from="1588513287704" duration="1675000" />
+      <workItem from="1588515100239" duration="1769000" />
+      <workItem from="1588516956822" duration="1768000" />
+      <workItem from="1588518782606" duration="1770000" />
+      <workItem from="1588520591610" duration="1815000" />
+      <workItem from="1588522452012" duration="1771000" />
+      <workItem from="1588524279813" duration="1773000" />
+      <workItem from="1588526092861" duration="1770000" />
+      <workItem from="1588527977161" duration="2097000" />
+      <workItem from="1588530829440" duration="1564000" />
+      <workItem from="1588532629883" duration="1787000" />
+      <workItem from="1588534462568" duration="1775000" />
+      <workItem from="1588536276997" duration="1468000" />
+      <workItem from="1588539444221" duration="1556000" />
+      <workItem from="1588575517155" duration="305000" />
+      <workItem from="1588584745151" duration="1779000" />
+      <workItem from="1588586559553" duration="1475000" />
+      <workItem from="1588606798954" duration="1762000" />
+      <workItem from="1588608649361" duration="2298000" />
+      <workItem from="1588611167041" duration="489000" />
+      <workItem from="1588619398707" duration="1679000" />
+      <workItem from="1588621217930" duration="1733000" />
+      <workItem from="1588623281070" duration="1671000" />
+      <workItem from="1588624995904" duration="1800000" />
+      <workItem from="1588693809261" duration="1861000" />
+      <workItem from="1588695734613" duration="1821000" />
+      <workItem from="1588697597501" duration="1550000" />
+      <workItem from="1588871464125" duration="1751000" />
+      <workItem from="1588873265883" duration="1766000" />
+      <workItem from="1588875093595" duration="1766000" />
+      <workItem from="1588876930279" duration="1766000" />
+      <workItem from="1588878743242" duration="418000" />
+      <workItem from="1588879202491" duration="1776000" />
+      <workItem from="1588881018267" duration="836000" />
+      <workItem from="1588889511938" duration="1829000" />
+      <workItem from="1588891385952" duration="1009000" />
+      <workItem from="1588892523401" duration="1772000" />
+      <workItem from="1588894336876" duration="743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

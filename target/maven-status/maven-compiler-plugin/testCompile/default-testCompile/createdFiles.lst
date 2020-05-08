@@ -1,0 +1,6 @@
+net\automation\steps\Dashboardstepfile.class
+utilities\LoadProperties.class
+net\automation\pages\Dashboardpagefile.class
+utilities\ConfigLoader.class
+net\automation\pages\Google.class
+RunTests.class

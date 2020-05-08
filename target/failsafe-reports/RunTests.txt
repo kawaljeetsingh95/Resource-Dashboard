@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: RunTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 58.512 s <<< FAILURE! - in RunTests
+Fill the input Fields and check validation on Initiation form(Test the Resource Dashboard scenario)  Time elapsed: 55.158 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Expected condition failed: waiting for Dashboardpagefile.Approvedhoursmessage to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for Dashboardpagefile.Approvedhoursmessage to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+
