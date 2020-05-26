@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Test the Resource Dashboard scenario" skipped="0" tests="1" time="121.38" timestamp="2020-05-25 08:13:35"><testcase name="Zxmcbxzmcbnzxbcmzxbmbcmb"><failure message="expected:&lt;[7]&gt; but was:&lt;[3]&gt;" type="java.lang.AssertionError">expected:&lt;[7]&gt; but was:&lt;[3]&gt;</failure><system-err>expected:&lt;[7]&gt; but was:&lt;[3]&gt;&#13;
+net.automation.pages.Dashboardpagefile.Clickontheacceptdeclineoptionandperformactionsonit(Dashboardpagefile.java:974)&#13;
+net.automation.steps.Dashboardstepfile.iCheckAcceptDeclineOptionVisibleWithAnd(Dashboardstepfile.java:297)&#13;
+✽.I check accept decline option visible with "GO" and "GOpassword"(src/test/resources/features/web/Dashboard.feature:148)&#13;
+</system-err></testcase></testsuite>

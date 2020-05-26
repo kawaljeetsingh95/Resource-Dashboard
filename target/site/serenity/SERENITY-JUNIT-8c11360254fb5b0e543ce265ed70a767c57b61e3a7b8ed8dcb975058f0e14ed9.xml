@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test the Resource Dashboard scenario" skipped="0" tests="1" time="206.22" timestamp="2020-05-25 05:39:15"><testcase name="Zxmcnbxzmcbmzxbcmxzbmncb"><error message="Timed out after 20000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@5853ca50&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Timed out after 20000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@5853ca50
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown</error><system-err>Timed out after 20000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@5853ca50
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LAPR194', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown&#13;
+net.automation.pages.Dashboardpagefile.FullyAllocation(Dashboardpagefile.java:1020)&#13;
+net.automation.steps.Dashboardstepfile.iClickOnTheAllocationOptionAndAllocateFullyResources(Dashboardstepfile.java:353)&#13;
+✽.I click on the Allocation option and allocate fully resources(src/test/resources/features/web/Dashboard.feature:200)&#13;
+</system-err></testcase></testsuite>

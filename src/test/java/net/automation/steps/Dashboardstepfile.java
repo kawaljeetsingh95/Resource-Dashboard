@@ -1,9 +1,7 @@
 package net.automation.steps;
 
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.automation.pages.Dashboardpagefile;
@@ -25,11 +23,12 @@ public class Dashboardstepfile
     @And("^Fill the \"([^\"]*)\" and \"([^\"]*)\"in field$")
     public void fillTheAndInField(String user, String pass)
     {
+
        user= loadproperties.getValueFromPropertyFile("test_data",user);
        pass=loadproperties.getValueFromPropertyFile("test_data",pass);
+       dashboardpagefile.setuserpassfiled(user,pass);
 
 
-        dashboardpagefile.setuserpassfiled(user,pass);
 
     }
 
@@ -106,7 +105,7 @@ public class Dashboardstepfile
     public void iClickOnTheOpenRequestOfProjectDashboard()
     {
         dashboardpagefile.choosetheprojectdashboard();
-        dashboardpagefile.ClickOnTheOpenRequestTab();
+
 
     }
 
@@ -225,14 +224,134 @@ public class Dashboardstepfile
         dashboardpagefile.RMusernameandpassword(RMuser,RMpass);
         dashboardpagefile.LeftPanelMenuoption();
         dashboardpagefile.choosetheprojectdashboard();
-        dashboardpagefile.ClickOnTheOpenRequestTab();
         dashboardpagefile.ClickOnTheActionDropDown(dataTable);
         dashboardpagefile.ClickOnTheCreationProject(dataTable);
         dashboardpagefile.CheckAllTheWebElements();
         dashboardpagefile.creationsubmitbutton();
         dashboardpagefile.clickonthecreationpopupmessage();
         dashboardpagefile.setLogout();
+    }
 
+    @Then("^I check User Able To Edit The Requisition And Verify It$")
+    public void iCheckUserAbleToEditTheRequisitionAndVerifyIt(DataTable dataTable)
+    {
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.EnterInToEditRequisitionAndVerifyThatEditValues(dataTable);
+
+    }
+
+    @And("^I repeate Requisition and Edit Requisition with \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void iRepeateRequisitionAndEditRequisitionWithAnd(String userargs, String passargs,DataTable dataTable)
+    {
+        google.goToHomePage();
+        userargs=loadproperties.getValueFromPropertyFile("test_data",userargs);
+        passargs=loadproperties.getValueFromPropertyFile("test_data",passargs);
+        dashboardpagefile.FillGOuserpassword(userargs,passargs);
+        dashboardpagefile.LeftPanelMenuoption();
+        dashboardpagefile.choosetheprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.ClickOnTheRequisitionProject(dataTable);
+        dashboardpagefile.ClickOnTheRequisitionButton();
+        dashboardpagefile.FillAllTheRequisitionFields(dataTable);
+        dashboardpagefile.RequisitionSubmitButton();
+        dashboardpagefile.RequisitionPopUp();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.EnterInToEditRequisitionAndVerifyThatEditValues(dataTable);
+        dashboardpagefile.setLogout();
+
+
+    }
+
+    @Then("^I Fill username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
+    public void iFillUsernameAsAndPasswordAs(String BUuser, String BUpass)
+    {
+        google.goToHomePage();
+        BUuser=loadproperties.getValueFromPropertyFile("test_data",BUuser);
+        BUpass=loadproperties.getValueFromPropertyFile("test_data",BUpass);
+        dashboardpagefile.FillTheBUusernameandpassword(BUuser,BUpass);
+
+    }
+
+
+    @Then("^I Click On The Allocation option and allocate the resources$")
+    public void iClickOnTheAllocationOptionAndAllocateTheResources(DataTable dataTable)
+    {
+        dashboardpagefile.Afterclickonprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.AllocationOption(dataTable);
+        dashboardpagefile.PartiallyAllocation(dataTable);
+
+    }
+
+    @And("^I check accept decline option visible with \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void iCheckAcceptDeclineOptionVisibleWithAnd(String userargs,String passargs,DataTable dataTable)
+    {
+        google.goToHomePage();
+        userargs=loadproperties.getValueFromPropertyFile("test_data",userargs);
+        passargs=loadproperties.getValueFromPropertyFile("test_data",passargs);
+        dashboardpagefile.FillGOuserpassword(userargs,passargs);
+
+        dashboardpagefile.LeftPanelMenuoption();
+        dashboardpagefile.choosetheprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.Clickontheacceptdeclineoptionandperformactionsonit();
+
+
+    }
+
+    @And("^I Reallocate the resources with username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
+    public void iReallocateTheResourcesWithUsernameAsAndPasswordAs(String BUuser, String BUpass,DataTable dataTable)
+    {
+        google.goToHomePage();
+        BUuser=loadproperties.getValueFromPropertyFile("test_data",BUuser);
+        BUpass=loadproperties.getValueFromPropertyFile("test_data",BUpass);
+        dashboardpagefile.FillTheBUusernameandpassword(BUuser,BUpass);
+        dashboardpagefile.LeftPanelMenuoption();
+        dashboardpagefile.Afterclickonprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.AllocationOption(dataTable);
+        dashboardpagefile.ClickonAllocationSubmitButton();
+
+
+    }
+
+    @Then("^I approve All  the resources in the accept decline form with username as\"([^\"]*)\" and Password as \"([^\"]*)\"$")
+    public void iApproveAllTheResourcesInTheAcceptDeclineFormWithUsernameAsAndPasswordAs(String userargs, String passargs,DataTable dataTable)
+    {
+        google.goToHomePage();
+        userargs=loadproperties.getValueFromPropertyFile("test_data",userargs);
+        passargs=loadproperties.getValueFromPropertyFile("test_data",passargs);
+        dashboardpagefile.FillGOuserpassword(userargs,passargs);
+        dashboardpagefile.LeftPanelMenuoption();
+        dashboardpagefile.choosetheprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.ClickontheacceptdeclineoptionandperformApproveactionsonit();
+
+    }
+
+
+    @Then("^I check Mapping option visible with \"([^\"]*)\" and \"([^\"]*)\" and submit The Mapping Form$")
+    public void iCheckMappingOptionVisibleWithAndAndSubmitTheMappingForm(String RMuser, String RMpass,DataTable dataTable)
+    {
+        google.goToHomePage();
+        RMuser=loadproperties.getValueFromPropertyFile("test_data",RMuser);
+        RMpass=loadproperties.getValueFromPropertyFile("test_data",RMpass);
+        dashboardpagefile.RMusernameandpassword(RMuser,RMpass);
+        dashboardpagefile.LeftPanelMenuoption();
+        dashboardpagefile.choosetheprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.ClickOnTheResourceMappingOption();
+
+
+    }
+
+    @Then("^I click on the Allocation option and allocate fully resources$")
+    public void iClickOnTheAllocationOptionAndAllocateFullyResources(DataTable dataTable)
+    {
+        dashboardpagefile.Afterclickonprojectdashboard();
+        dashboardpagefile.ClickOnTheActionDropDown(dataTable);
+        dashboardpagefile.AllocationOption(dataTable);
+        dashboardpagefile.FullyAllocation(dataTable);
 
     }
 }

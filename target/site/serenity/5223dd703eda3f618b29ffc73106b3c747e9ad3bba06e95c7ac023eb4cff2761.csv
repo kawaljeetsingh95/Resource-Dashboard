@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Test the Resource Dashboard scenario","Fill the input Fields and check validation on Initiation form","ERROR","2020-05-03T11:06:41.208716+05:30[Asia/Calcutta]","0.0","55.31"
+"Test the Resource Dashboard scenario","Accept Decline option visible when resources are allocate partially during Allocation and Reallocation","ERROR","2020-05-24T18:49:41.2003858+05:30[Asia/Calcutta]","0.0","98.28"
